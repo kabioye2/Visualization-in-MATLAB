@@ -63,8 +63,13 @@ for loops, and the residual error equations. The residual surface was calculated
 inputting the residual error equation into equation 7. The surfaces were plotted using the
 “surf” function and the solution from part #1 was plotted using the “scatter” function.
 
-Results
-Part#1: Lines
-Equations 1 and 2 were plotted by setting them equal to y and vector x was found and
-plotted on the same graph. Figure 1 shows the solution to the linearly independent set
-where the two lines meet and is represented by an orange circle.
+Conclusion
+All cases produced a null vector when plugged into the residual error function, which validates
+the solutions. The residual surface produced an image that showed the further away from the
+solution vector x, the longer the distance. The outer surfaces of the graph curved upward which
+would have a larger magnitude.
+
+Discussion
+I have learned that the matrix equation can be applied to solving for unknown variables of a
+matrix. I also learned the residual error equation can be derived from the matrix equation and be
+applied to check the accuracy of the solution x of the matrix equation. 
